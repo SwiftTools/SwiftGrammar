@@ -43,75 +43,87 @@ class SwiftSupport {
     WS=146, Block_comment=147, Line_comment=148
     
     static let operatorHead = { () -> BitSet in
-        let operatorHead = try! BitSet(0x3100)
-        try! operatorHead.set(SwiftSupport.BANG);
-        try! operatorHead.set(SwiftSupport.LT);
-        try! operatorHead.set(SwiftSupport.GT);
-        try! operatorHead.set(SwiftSupport.AND);
-        try! operatorHead.set(SwiftSupport.OR);
-        try! operatorHead.set(SwiftSupport.SUB);
-        try! operatorHead.set(SwiftSupport.ADD);
-        try! operatorHead.set(SwiftSupport.MUL);
-        try! operatorHead.set(SwiftSupport.DIV);
-        try! operatorHead.set(SwiftSupport.MOD);
-        try! operatorHead.set(SwiftSupport.EQUAL);
-        try! operatorHead.set(SwiftSupport.CARET);
-        try! operatorHead.set(SwiftSupport.TILDE);
-        try! operatorHead.set(SwiftSupport.QUESTION);
-        try! operatorHead.set(0xA1,0xA7+1);
-        try! operatorHead.set(0xA9,0xAB+1);
-        try! operatorHead.set(0xAC,0xAE+1);
-        try! operatorHead.set(0xB0,0xB1+1);
-        try! operatorHead.set(0xB6);
-        try! operatorHead.set(0xBB);
-        try! operatorHead.set(0xBF);
-        try! operatorHead.set(0xD7);
-        try! operatorHead.set(0xF7);
-        try! operatorHead.set(0x2016,0x2017+1);
-        try! operatorHead.set(0x2020,0x2027+1);
-        try! operatorHead.set(0x2030,0x203E+1);
-        try! operatorHead.set(0x2041,0x2053+1);
-        try! operatorHead.set(0x2055,0x205E+1);
-        try! operatorHead.set(0x2190,0x23FF+1);
-        try! operatorHead.set(0x2500,0x2775+1);
-        try! operatorHead.set(0x2794,0x2BFF+1);
-        try! operatorHead.set(0x2E00,0x2E7F+1);
-        try! operatorHead.set(0x3001,0x3003+1);
-        try! operatorHead.set(0x3008,0x3030+1);
-        return operatorHead
+        do {
+            let operatorHead = try BitSet(0x3100)
+            try operatorHead.set(SwiftSupport.BANG);
+            try operatorHead.set(SwiftSupport.LT);
+            try operatorHead.set(SwiftSupport.GT);
+            try operatorHead.set(SwiftSupport.AND);
+            try operatorHead.set(SwiftSupport.OR);
+            try operatorHead.set(SwiftSupport.SUB);
+            try operatorHead.set(SwiftSupport.ADD);
+            try operatorHead.set(SwiftSupport.MUL);
+            try operatorHead.set(SwiftSupport.DIV);
+            try operatorHead.set(SwiftSupport.MOD);
+            try operatorHead.set(SwiftSupport.EQUAL);
+            try operatorHead.set(SwiftSupport.CARET);
+            try operatorHead.set(SwiftSupport.TILDE);
+            try operatorHead.set(SwiftSupport.QUESTION);
+            try operatorHead.set(0xA1,0xA7+1);
+            try operatorHead.set(0xA9,0xAB+1);
+            try operatorHead.set(0xAC,0xAE+1);
+            try operatorHead.set(0xB0,0xB1+1);
+            try operatorHead.set(0xB6);
+            try operatorHead.set(0xBB);
+            try operatorHead.set(0xBF);
+            try operatorHead.set(0xD7);
+            try operatorHead.set(0xF7);
+            try operatorHead.set(0x2016,0x2017+1);
+            try operatorHead.set(0x2020,0x2027+1);
+            try operatorHead.set(0x2030,0x203E+1);
+            try operatorHead.set(0x2041,0x2053+1);
+            try operatorHead.set(0x2055,0x205E+1);
+            try operatorHead.set(0x2190,0x23FF+1);
+            try operatorHead.set(0x2500,0x2775+1);
+            try operatorHead.set(0x2794,0x2BFF+1);
+            try operatorHead.set(0x2E00,0x2E7F+1);
+            try operatorHead.set(0x3001,0x3003+1);
+            try operatorHead.set(0x3008,0x3030+1);
+            return operatorHead
+        } catch {
+            return BitSet()
+        }
     }()
     
     static let leftWS = { () -> BitSet in
-        let leftWS = try! BitSet(255)
-        
-        try! leftWS.set(SwiftSupport.WS);
-        try! leftWS.set(SwiftSupport.LPAREN);
-        try! leftWS.set(SwiftSupport.LBRACK);
-        try! leftWS.set(SwiftSupport.LCURLY);
-        try! leftWS.set(SwiftSupport.COMMA);
-        try! leftWS.set(SwiftSupport.COLON);
-        try! leftWS.set(SwiftSupport.SEMI);
-        
-        return leftWS
+        do {
+            let leftWS = try BitSet(255)
+            
+            try leftWS.set(SwiftSupport.WS);
+            try leftWS.set(SwiftSupport.LPAREN);
+            try leftWS.set(SwiftSupport.LBRACK);
+            try leftWS.set(SwiftSupport.LCURLY);
+            try leftWS.set(SwiftSupport.COMMA);
+            try leftWS.set(SwiftSupport.COLON);
+            try leftWS.set(SwiftSupport.SEMI);
+            
+            return leftWS
+        } catch {
+            return BitSet()
+        }
     }()
     static let rightWS = { () -> BitSet in
-        let rightWS = try! BitSet(255)
-        
-        try! rightWS.set(SwiftSupport.WS);
-        try! rightWS.set(SwiftSupport.RPAREN);
-        try! rightWS.set(SwiftSupport.RBRACK);
-        try! rightWS.set(SwiftSupport.RCURLY);
-        try! rightWS.set(SwiftSupport.COMMA);
-        try! rightWS.set(SwiftSupport.COLON);
-        try! rightWS.set(SwiftSupport.SEMI);
-        try! rightWS.set(SwiftSupport.Line_comment);
-        try! rightWS.set(SwiftSupport.Block_comment);
-        
-        return rightWS
+        do {
+            let rightWS = try BitSet(255)
+            
+            try rightWS.set(SwiftSupport.WS);
+            try rightWS.set(SwiftSupport.RPAREN);
+            try rightWS.set(SwiftSupport.RBRACK);
+            try rightWS.set(SwiftSupport.RCURLY);
+            try rightWS.set(SwiftSupport.COMMA);
+            try rightWS.set(SwiftSupport.COLON);
+            try rightWS.set(SwiftSupport.SEMI);
+            try rightWS.set(SwiftSupport.Line_comment);
+            try rightWS.set(SwiftSupport.Block_comment);
+            
+            return rightWS
+        } catch {
+            return BitSet()
+        }
     }()
     
-    static func isOperatorHead(ttype: Int) -> Bool {
-        return try! operatorHead.get(ttype);
+    static func isOperatorHead(ttype: Int) throws -> Bool {
+        return try operatorHead.get(ttype);
     }
     
     /*
@@ -125,8 +137,8 @@ class SwiftSupport {
      //| [\uE0100–\uE01EF]  ANTLR can't do >16bit char
      ;
      */
-    static func isOperatorChar(ttype: Int) -> Bool {
-        return try! operatorHead.get(ttype) ||
+    static func isOperatorChar(ttype: Int) throws -> Bool {
+        return try operatorHead.get(ttype) ||
             ttype>=0x0300 && ttype<=0x036F ||
             ttype>=0x1DC0 && ttype<=0x1DFF ||
             ttype>=0x20D0 && ttype<=0x20FF ||
@@ -134,44 +146,40 @@ class SwiftSupport {
             ttype>=0xFE20 && ttype<=0xFE2F;
     }
     
-    static func isOpNext(tokens: TokenStream) -> Bool {
-        let stop = getLastOpTokenIndex(tokens);
-        if stop == -1 {
-            return false;
-        }
-        
-        return true
+    private static func isDotOrOperatorChar(lt: Token) throws -> Bool {
+        let isOperatorChar = try self.isOperatorChar(lt.getType())
+        return  lt.getType() != CommonToken.EOF && (lt.getType() == SwiftSupport.DOT || isOperatorChar)
     }
     
     /** Find stop token index of next operator; return -1 if not operator. */
-    static func getLastOpTokenIndex(tokens: TokenStream) -> Int {
+    private static func getLastOpTokenIndex(tokens: TokenStream) throws -> Int {
         var i = tokens.index(); // current on-channel lookahead token index
-        var lt = try! tokens.get(i);
-        if ( try! lt.getType() == SwiftSupport.DOT && tokens.get(i+1).getType() == SwiftSupport.DOT ) {
+        var lt = try tokens.get(i);
+        if try lt.getType() == SwiftSupport.DOT && tokens.get(i + 1).getType() == SwiftSupport.DOT {
             // dot-operator
             i += 2; // point at token after ".."
-            lt = try! tokens.get(i);
-            while lt.getType() != CommonToken.EOF
-                && (lt.getType() == SwiftSupport.DOT || isOperatorChar(lt.getType()))
-            {
+            lt = try tokens.get(i);
+            
+            while try isDotOrOperatorChar(lt) {
                 i += 1;
-                lt = try! tokens.get(i);
+                lt = try tokens.get(i);
             }
             let stop = i-1;
             return stop;
         }
         // Is it regular operator?
-        if ( !isOperatorHead(lt.getType()) ) {
+        let isOperatorHead = try self.isOperatorHead(lt.getType())
+        if !isOperatorHead {
             return -1;
         }
         i += 1;
-        lt = try! tokens.get(i);
-        while ( lt.getType() != CommonToken.EOF && isOperatorChar(lt.getType()) ) {
+        lt = try tokens.get(i);
+        while try isOperatorChar(lt.getType()) && lt.getType() != CommonToken.EOF {
             i += 1;
-            lt = try! tokens.get(i);
+            lt = try tokens.get(i);
         }
         let stop = i-1;
-        return stop;
+        return stop
     }
     
     /**
@@ -180,20 +188,24 @@ class SwiftSupport {
      and a + b is treated as a binary operator."
      */
     static func isBinaryOp(tokens: TokenStream) -> Bool {
-        let stop = getLastOpTokenIndex(tokens);
+        do {
+            let stop = try getLastOpTokenIndex(tokens);
+            
+            if ( stop == -1 ) {
+                return false;
+            }
         
-        if ( stop == -1 ) {
-            return false;
+            let start = tokens.index();
+            let prevToken = try tokens.get(start - 1) // includes hidden-channel tokens
+            let nextToken = try tokens.get(stop + 1)
+            let prevIsWS = try isLeftOperatorWS(prevToken)
+            let nextIsWS = try isRightOperatorWS(nextToken)
+            let result = prevIsWS && nextIsWS || (!prevIsWS && !nextIsWS)
+        
+            return result
+        } catch {
+            return false
         }
-    
-        let start = tokens.index();
-        let prevToken = try! tokens.get(start - 1); // includes hidden-channel tokens
-        let nextToken = try! tokens.get(stop + 1);
-        let prevIsWS = isLeftOperatorWS(prevToken);
-        let nextIsWS = isRightOperatorWS(nextToken);
-        let result = prevIsWS && nextIsWS || (!prevIsWS && !nextIsWS);
-    
-        return result;
     }
     
     /**
@@ -202,19 +214,24 @@ class SwiftSupport {
      as a prefix unary operator."
      */
     static func isPrefixOp(tokens: TokenStream) -> Bool {
-        let stop = getLastOpTokenIndex(tokens);
-        if ( stop == -1 ) {
-            return false;
+        do {
+            let stop = try getLastOpTokenIndex(tokens)
+            
+            if ( stop == -1 ) {
+                return false;
+            }
+            
+            let start = tokens.index()
+            let prevToken = try tokens.get(start-1) // includes hidden-channel tokens
+            let nextToken = try tokens.get(stop+1)
+            let prevIsWS = try isLeftOperatorWS(prevToken)
+            let nextIsWS = try isRightOperatorWS(nextToken)
+            let result = prevIsWS && !nextIsWS
+            
+            return result
+        } catch {
+            return false
         }
-        
-        let start = tokens.index();
-        let prevToken = try! tokens.get(start-1); // includes hidden-channel tokens
-        let nextToken = try! tokens.get(stop+1);
-        let prevIsWS = isLeftOperatorWS(prevToken);
-        let nextIsWS = isRightOperatorWS(nextToken);
-        let result = prevIsWS && !nextIsWS;
-        
-        return result;
     }
     
     /**
@@ -227,51 +244,48 @@ class SwiftSupport {
      rather than a ++ .b)."
      */
     static func isPostfixOp(tokens: TokenStream) -> Bool {
-        let stop = getLastOpTokenIndex(tokens);
-        if ( stop == -1 ) {
-            return false;
-        }
-    
-        let start = tokens.index();
-        let prevToken = try! tokens.get(start-1); // includes hidden-channel tokens
-        let nextToken = try! tokens.get(stop+1);
-        let prevIsWS = isLeftOperatorWS(prevToken);
-        let nextIsWS = isRightOperatorWS(nextToken);
-        let result = !prevIsWS && nextIsWS
-            || !prevIsWS && nextToken.getType() == SwiftSupport.DOT;
+        do {
+            let stop = try getLastOpTokenIndex(tokens)
+            
+            if ( stop == -1 ) {
+                return false
+            }
         
-        return result;
+            let start = tokens.index();
+            let prevToken = try tokens.get(start-1) // includes hidden-channel tokens
+            let nextToken = try tokens.get(stop+1)
+            let prevIsWS = try isLeftOperatorWS(prevToken)
+            let nextIsWS = try isRightOperatorWS(nextToken)
+            let result = !prevIsWS && nextIsWS
+                || !prevIsWS && nextToken.getType() == SwiftSupport.DOT
+            
+            return result
+        } catch {
+            return false
+        }
     }
     
     static func isOperator(tokens: TokenStream, _ op: String) -> Bool {
-        let stop = getLastOpTokenIndex(tokens);
-        if ( stop == -1 ) { return false }
-    
-        let start = tokens.index();
-        let text = try! tokens.getText(Interval.of(start, stop));
+        do {
+            let stop = try getLastOpTokenIndex(tokens)
+            if stop == -1 {
+                return false
+            }
         
-        return text == op
+            let start = tokens.index()
+            let text = try tokens.getText(Interval.of(start, stop))
+            
+            return text == op
+        } catch {
+            return false
+        }
     }
     
-    /** Return two booleans packed into lowest 2 bits for left (high) and right (low)
-     *  whitespace.
-     */
-    static func getLeftRightWS(tokens: TokenStream, ctx: ParserRuleContext) -> Int {
-        let left = ctx.start!.getTokenIndex();
-        let right = ctx.stop!.getTokenIndex();
-        let prevToken = try! tokens.get(left-1); // includes hidden-channel tokens
-        let nextToken = try! tokens.get(right+1);
-        let prevIsWS = isLeftOperatorWS(prevToken);
-        let nextIsWS = isRightOperatorWS(nextToken);
-        let b = (prevIsWS ? 1 : 0) << 1 | (nextIsWS ? 1 : 0) ;
-        return b;
+    static func isLeftOperatorWS(t: Token) throws -> Bool {
+        return try leftWS.get(t.getType())
     }
     
-    static func isLeftOperatorWS(t: Token) -> Bool {
-        return try! leftWS.get(t.getType())
-    }
-    
-    static func isRightOperatorWS(t: Token) -> Bool {
-        return try! rightWS.get(t.getType()) || t.getType() == CommonToken.EOF;
+    static func isRightOperatorWS(t: Token) throws -> Bool {
+        return try rightWS.get(t.getType()) || t.getType() == CommonToken.EOF;
     }
 }
