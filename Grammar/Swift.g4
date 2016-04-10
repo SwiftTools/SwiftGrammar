@@ -183,24 +183,6 @@ availability_arguments : availability_argument (',' availability_argument)* ;
 
 availability_argument : Platform | '*' ;
 
-/** Must match as token so Platform_version doesn't look like a float literal */
-Platform : Platform_name WS? Platform_version ;
-
-fragment
-Platform_name
- : 'iOS' | 'iOSApplicationExtension'
- | 'OSX' | 'OSXApplicationExtension'
- | 'watchOS'
- | 'tvOS' // ?
- ;
-
-fragment
-Platform_version
- : Pure_decimal_digits
- | Pure_decimal_digits '.' Pure_decimal_digits
- | Pure_decimal_digits '.' Pure_decimal_digits '.' Pure_decimal_digits
- ;
-
 // GRAMMAR OF A THROW STATEMENT
 throw_statement : 'throw' expression ;
 
@@ -859,6 +841,134 @@ class_requirement : 'class' ;
 
 // ---------- Lexical Structure -----------
 
+//"'([#_]*)([a-zA-Z]?[_a-zA-Z0-9]*?[a-zA-Z0-9])([#_]*?)'",
+//SYM_\U$2 : '\E$1$2$3' ;
+//
+//cat|sort|uniq
+//
+//#a -> HASH_A
+//a -> SYM_A
+//A -> SYM_UPPERCASE_A
+//_A -> SYM_UNDERSCORE_A
+
+SYM_ARCH : 'arch' ;
+SYM_ARM : 'arm' ;
+SYM_ARM64 : 'arm64' ;
+SYM_AS : 'as' ;
+SYM_ASSOCIATEDTYPE : 'associatedtype' ;
+SYM_ASSOCIATIVITY : 'associativity' ;
+SYM_HASH_AVAILABLE : '#available' ;
+SYM_BREAK : 'break' ;
+SYM_CATCH : 'catch' ;
+SYM_CLASS : 'class' ;
+SYM_HASH_COLUMN : '#column' ;
+SYM_UNDERSCORE_COLUMN : '__COLUMN__' ;
+SYM_CONTINUE : 'continue' ;
+SYM_CONVENIENCE : 'convenience' ;
+SYM_DEFAULT : 'default' ;
+SYM_DEFER : 'defer' ;
+SYM_DEINIT : 'deinit' ;
+SYM_DIDSET : 'didSet' ;
+SYM_DO : 'do' ;
+SYM_DYNAMIC : 'dynamic' ;
+SYM_DYNAMICTYPE : 'dynamicType' ;
+SYM_HASH_ELSE : '#else' ;
+SYM_ELSE : 'else' ;
+SYM_HASH_ELSEIF : '#elseif' ;
+SYM_HASH_ENDIF : '#endif' ;
+SYM_ENUM : 'enum' ;
+SYM_EXTENSION : 'extension' ;
+SYM_FALLTHROUGH : 'fallthrough' ;
+SYM_FALSE : 'false' ;
+SYM_HASH_FILE : '#file' ;
+SYM_UNDERSCORE_FILE : '__FILE__' ;
+SYM_FINAL : 'final' ;
+SYM_FUNC : 'func' ;
+SYM_HASH_FUNCTION : '#function' ;
+SYM_UNDERSCORE_FUNCTION : '__FUNCTION__' ;
+SYM_GET : 'get' ;
+SYM_GUARD : 'guard' ;
+SYM_I386 : 'i386' ;
+SYM_HASH_IF : '#if' ;
+SYM_IF : 'if' ;
+SYM_IMPORT : 'import' ;
+SYM_INDIRECT : 'indirect' ;
+SYM_INFIX : 'infix' ;
+SYM_INIT : 'init' ;
+SYM_INOUT : 'inout' ;
+SYM_INTERNAL : 'internal' ;
+SYM_IOS : 'iOS' ;
+SYM_IS : 'is' ;
+SYM_LAZY : 'lazy' ;
+SYM_LEFT : 'left' ;
+SYM_HASH_LINE : '#line' ;
+SYM_UNDERSCORE_LINE : '__LINE__' ;
+SYM_MUTATING : 'mutating' ;
+SYM_NIL : 'nil' ;
+SYM_NONE : 'none' ;
+SYM_NONMUTATING : 'nonmutating' ;
+SYM_OPERATOR : 'operator' ;
+SYM_OPTIONAL : 'optional' ;
+SYM_OS : 'os' ;
+SYM_UPPERCASE_OSX : 'OSX' ;
+SYM_OVERRIDE : 'override' ;
+SYM_POSTFIX : 'postfix' ;
+SYM_PRECEDENCE : 'precedence' ;
+SYM_PREFIX : 'prefix' ;
+SYM_PRIVATE : 'private' ;
+SYM_PROTOCOL : 'protocol' ;
+SYM_UPPERCASE_PROTOCOL : 'Protocol' ;
+SYM_PUBLIC : 'public' ;
+SYM_REQUIRED : 'required' ;
+SYM_RETHROWS : 'rethrows' ;
+SYM_RETURN : 'return' ;
+SYM_RIGHT : 'right' ;
+SYM_SAFE : 'safe' ;
+SYM_HASH_SELECTOR : '#selector' ;
+SYM_SELF : 'self' ;
+SYM_SET : 'set' ;
+SYM_STATIC : 'static' ;
+SYM_STRUCT : 'struct' ;
+SYM_SUBSCRIPT : 'subscript' ;
+SYM_SUPER : 'super' ;
+SYM_SWIFT : 'swift' ;
+SYM_SWITCH : 'switch' ;
+SYM_THROW : 'throw' ;
+SYM_THROWS : 'throws' ;
+SYM_TRUE : 'true' ;
+SYM_TRY : 'try' ;
+SYM_TVOS : 'tvOS' ;
+SYM_UPPERCASE_TYPE : 'Type' ;
+SYM_TYPEALIAS : 'typealias' ;
+SYM_UNOWNED : 'unowned' ;
+SYM_UNOWNED_SAFE : 'unowned(safe)' ;
+SYM_UNOWNED_UNSAFE : 'unowned(unsafe)' ;
+SYM_UNSAFE : 'unsafe' ;
+SYM_WATCHOS : 'watchOS' ;
+SYM_WEAK : 'weak' ;
+SYM_WHERE : 'where' ;
+SYM_WILLSET : 'willSet' ;
+SYM_X86_64 : 'x86_64' ;
+
+/** Must match as token so Platform_version doesn't look like a float literal */
+Platform : Platform_name WS? Platform_version ;
+
+fragment
+Platform_name
+ : 'iOS' | 'iOSApplicationExtension'
+ | 'OSX' | 'OSXApplicationExtension'
+ | 'watchOS'
+ | 'tvOS' // ?
+ ;
+
+fragment
+Platform_version
+ : Pure_decimal_digits
+ | Pure_decimal_digits '.' Pure_decimal_digits
+ | Pure_decimal_digits '.' Pure_decimal_digits '.' Pure_decimal_digits
+ ;
+
+
 // GRAMMAR OF AN IDENTIFIER
 
 identifier : Identifier | context_sensitive_keyword ;
@@ -959,116 +1069,6 @@ From doc on operators:
 /* these following tokens are also a Binary_operator so much come first as special case */
 
 assignment_operator : {SwiftSupport.isBinaryOp(_input)}? '=' ;
-
-/*
-"'([#_]*)([a-zA-Z]?[_a-zA-Z0-9]*?[a-zA-Z0-9])([#_]*?)'",
-SYM_\U$2 : '\E$1$2$3' ;
-
-cat|sort|uniq
-
-# -> HASH_*
-a -> SYM_A*
-A -> SYM_UPPERCASE_A*
-*/
-
-SYM_ARCH : 'arch' ;
-SYM_ARM : 'arm' ;
-SYM_ARM64 : 'arm64' ;
-SYM_AS : 'as' ;
-SYM_ASSOCIATEDTYPE : 'associatedtype' ;
-SYM_ASSOCIATIVITY : 'associativity' ;
-SYM_HASH_AVAILABLE : '#available' ;
-SYM_BREAK : 'break' ;
-SYM_CATCH : 'catch' ;
-SYM_CLASS : 'class' ;
-SYM_HASH_COLUMN : '#column' ;
-SYM_UNDERSCORE_COLUMN : '__COLUMN__' ;
-SYM_CONTINUE : 'continue' ;
-SYM_CONVENIENCE : 'convenience' ;
-SYM_DEFAULT : 'default' ;
-SYM_DEFER : 'defer' ;
-SYM_DEINIT : 'deinit' ;
-SYM_DIDSET : 'didSet' ;
-SYM_DO : 'do' ;
-SYM_DYNAMIC : 'dynamic' ;
-SYM_DYNAMICTYPE : 'dynamicType' ;
-SYM_HASH_ELSE : '#else' ;
-SYM_ELSE : 'else' ;
-SYM_HASH_ELSEIF : '#elseif' ;
-SYM_HASH_ENDIF : '#endif' ;
-SYM_ENUM : 'enum' ;
-SYM_EXTENSION : 'extension' ;
-SYM_FALLTHROUGH : 'fallthrough' ;
-SYM_FALSE : 'false' ;
-SYM_HASH_FILE : '#file' ;
-SYM_UNDERSCORE_FILE : '__FILE__' ;
-SYM_FINAL : 'final' ;
-SYM_FUNC : 'func' ;
-SYM_HASH_FUNCTION : '#function' ;
-SYM_UNDERSCORE_FUNCTION : '__FUNCTION__' ;
-SYM_GET : 'get' ;
-SYM_GUARD : 'guard' ;
-SYM_I386 : 'i386' ;
-SYM_HASH_IF : '#if' ;
-SYM_IF : 'if' ;
-SYM_IMPORT : 'import' ;
-SYM_INDIRECT : 'indirect' ;
-SYM_INFIX : 'infix' ;
-SYM_INIT : 'init' ;
-SYM_INOUT : 'inout' ;
-SYM_INTERNAL : 'internal' ;
-SYM_IOS : 'iOS' ;
-SYM_IS : 'is' ;
-SYM_LAZY : 'lazy' ;
-SYM_LEFT : 'left' ;
-SYM_HASH_LINE : '#line' ;
-SYM_UNDERSCORE_LINE : '__LINE__' ;
-SYM_MUTATING : 'mutating' ;
-SYM_NIL : 'nil' ;
-SYM_NONE : 'none' ;
-SYM_NONMUTATING : 'nonmutating' ;
-SYM_OPERATOR : 'operator' ;
-SYM_OPTIONAL : 'optional' ;
-SYM_OS : 'os' ;
-SYM_UPPERCASE_OSX : 'OSX' ;
-SYM_OVERRIDE : 'override' ;
-SYM_POSTFIX : 'postfix' ;
-SYM_PRECEDENCE : 'precedence' ;
-SYM_PREFIX : 'prefix' ;
-SYM_PRIVATE : 'private' ;
-SYM_PROTOCOL : 'protocol' ;
-SYM_UPPERCASE_PROTOCOL : 'Protocol' ;
-SYM_PUBLIC : 'public' ;
-SYM_REQUIRED : 'required' ;
-SYM_RETHROWS : 'rethrows' ;
-SYM_RETURN : 'return' ;
-SYM_RIGHT : 'right' ;
-SYM_SAFE : 'safe' ;
-SYM_HASH_SELECTOR : '#selector' ;
-SYM_SELF : 'self' ;
-SYM_SET : 'set' ;
-SYM_STATIC : 'static' ;
-SYM_STRUCT : 'struct' ;
-SYM_SUBSCRIPT : 'subscript' ;
-SYM_SUPER : 'super' ;
-SYM_SWIFT : 'swift' ;
-SYM_SWITCH : 'switch' ;
-SYM_THROW : 'throw' ;
-SYM_THROWS : 'throws' ;
-SYM_TRUE : 'true' ;
-SYM_TRY : 'try' ;
-SYM_TVOS : 'tvOS' ;
-SYM_UPPERCASE_TYPE : 'Type' ;
-SYM_TYPEALIAS : 'typealias' ;
-SYM_UNOWNED : 'unowned' ;
-SYM_UNOWNED_SAFE : 'unowned(safe)' ;
-SYM_UNOWNED_UNSAFE : 'unowned(unsafe)' ;
-SYM_UNSAFE : 'unsafe' ;
-SYM_WATCHOS : 'watchOS' ;
-SYM_WEAK : 'weak' ;
-SYM_WHERE : 'where' ;
-SYM_WILLSET : 'willSet' ;
-SYM_X86_64 : 'x86_64' ;
 
 DOT    	: '.' ;
 LCURLY 	: '{' ;
