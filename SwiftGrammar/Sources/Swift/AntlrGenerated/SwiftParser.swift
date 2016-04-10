@@ -13,43 +13,43 @@ public class SwiftParser: Parser {
      }()
 	internal static let _sharedContextCache: PredictionContextCache = PredictionContextCache()
 	public static let T__0=1, T__1=2, T__2=3, T__3=4, T__4=5, T__5=6, T__6=7, 
-                   T__7=8, T__8=9, T__9=10, T__10=11, T__11=12, T__12=13, 
-                   T__13=14, T__14=15, T__15=16, Platform=17, Identifier=18, 
-                   DOT=19, LCURLY=20, LPAREN=21, LBRACK=22, RCURLY=23, RPAREN=24, 
-                   RBRACK=25, COMMA=26, COLON=27, SEMI=28, LT=29, GT=30, 
-                   UNDERSCORE=31, BANG=32, QUESTION=33, AT=34, AND=35, SUB=36, 
-                   EQUAL=37, OR=38, DIV=39, ADD=40, MUL=41, MOD=42, CARET=43, 
-                   TILDE=44, SYM_ARCH=45, SYM_ARM=46, SYM_ARM64=47, SYM_AS=48, 
-                   SYM_ASSOCIATEDTYPE=49, SYM_ASSOCIATIVITY=50, SYM_HASH_AVAILABLE=51, 
-                   SYM_BREAK=52, SYM_CATCH=53, SYM_CLASS=54, SYM_HASH_COLUMN=55, 
-                   SYM_CONTINUE=56, SYM_CONVENIENCE=57, SYM_DEFAULT=58, 
-                   SYM_DEFER=59, SYM_DEINIT=60, SYM_DIDSET=61, SYM_DO=62, 
-                   SYM_DYNAMIC=63, SYM_DYNAMICTYPE=64, SYM_HASH_ELSE=65, 
-                   SYM_ELSE=66, SYM_HASH_ELSEIF=67, SYM_HASH_ENDIF=68, SYM_ENUM=69, 
-                   SYM_EXTENSION=70, SYM_FALLTHROUGH=71, SYM_FALSE=72, SYM_HASH_FILE=73, 
-                   SYM_FINAL=74, SYM_FUNC=75, SYM_HASH_FUNCTION=76, SYM_GET=77, 
-                   SYM_GUARD=78, SYM_I386=79, SYM_HASH_IF=80, SYM_IF=81, 
-                   SYM_IMPORT=82, SYM_INDIRECT=83, SYM_INFIX=84, SYM_INIT=85, 
-                   SYM_INOUT=86, SYM_INTERNAL=87, SYM_IOS=88, SYM_IS=89, 
-                   SYM_LAZY=90, SYM_LEFT=91, SYM_HASH_LINE=92, SYM_MUTATING=93, 
-                   SYM_NIL=94, SYM_NONE=95, SYM_NONMUTATING=96, SYM_OPERATOR=97, 
-                   SYM_OPTIONAL=98, SYM_OS=99, SYM_UPPERCASE_OSX=100, SYM_OVERRIDE=101, 
-                   SYM_POSTFIX=102, SYM_PRECEDENCE=103, SYM_PREFIX=104, 
-                   SYM_PRIVATE=105, SYM_PROTOCOL=106, SYM_UPPERCASE_PROTOCOL=107, 
-                   SYM_PUBLIC=108, SYM_REQUIRED=109, SYM_RETHROWS=110, SYM_RETURN=111, 
-                   SYM_RIGHT=112, SYM_SAFE=113, SYM_HASH_SELECTOR=114, SYM_SELF=115, 
-                   SYM_SET=116, SYM_STATIC=117, SYM_STRUCT=118, SYM_SUBSCRIPT=119, 
-                   SYM_SUPER=120, SYM_SWIFT=121, SYM_SWITCH=122, SYM_THROW=123, 
-                   SYM_THROWS=124, SYM_TRUE=125, SYM_TRY=126, SYM_TVOS=127, 
-                   SYM_UPPERCASE_TYPE=128, SYM_TYPEALIAS=129, SYM_UNOWNED=130, 
-                   SYM_UNOWNED_SAFE=131, SYM_UNOWNED_UNSAFE=132, SYM_UNSAFE=133, 
-                   SYM_WATCHOS=134, SYM_WEAK=135, SYM_WHERE=136, SYM_WILLSET=137, 
-                   SYM_X86_64=138, Operator_head_other=139, Operator_following_character=140, 
-                   Implicit_parameter_name=141, Binary_literal=142, Octal_literal=143, 
-                   Decimal_literal=144, Pure_decimal_digits=145, Hexadecimal_literal=146, 
-                   Floating_point_literal=147, Static_string_literal=148, 
-                   Interpolated_string_literal=149, WS=150, Block_comment=151, 
-                   Line_comment=152
+                   T__7=8, Platform=9, Identifier=10, SYM_ARCH=11, SYM_ARM=12, 
+                   SYM_ARM64=13, SYM_AS=14, SYM_ASSOCIATEDTYPE=15, SYM_ASSOCIATIVITY=16, 
+                   SYM_HASH_AVAILABLE=17, SYM_BREAK=18, SYM_CATCH=19, SYM_CLASS=20, 
+                   SYM_HASH_COLUMN=21, SYM_UNDERSCORE_COLUMN=22, SYM_CONTINUE=23, 
+                   SYM_CONVENIENCE=24, SYM_DEFAULT=25, SYM_DEFER=26, SYM_DEINIT=27, 
+                   SYM_DIDSET=28, SYM_DO=29, SYM_DYNAMIC=30, SYM_DYNAMICTYPE=31, 
+                   SYM_HASH_ELSE=32, SYM_ELSE=33, SYM_HASH_ELSEIF=34, SYM_HASH_ENDIF=35, 
+                   SYM_ENUM=36, SYM_EXTENSION=37, SYM_FALLTHROUGH=38, SYM_FALSE=39, 
+                   SYM_HASH_FILE=40, SYM_UNDERSCORE_FILE=41, SYM_FINAL=42, 
+                   SYM_FUNC=43, SYM_HASH_FUNCTION=44, SYM_UNDERSCORE_FUNCTION=45, 
+                   SYM_GET=46, SYM_GUARD=47, SYM_I386=48, SYM_HASH_IF=49, 
+                   SYM_IF=50, SYM_IMPORT=51, SYM_INDIRECT=52, SYM_INFIX=53, 
+                   SYM_INIT=54, SYM_INOUT=55, SYM_INTERNAL=56, SYM_IOS=57, 
+                   SYM_IS=58, SYM_LAZY=59, SYM_LEFT=60, SYM_HASH_LINE=61, 
+                   SYM_UNDERSCORE_LINE=62, SYM_MUTATING=63, SYM_NIL=64, 
+                   SYM_NONE=65, SYM_NONMUTATING=66, SYM_OPERATOR=67, SYM_OPTIONAL=68, 
+                   SYM_OS=69, SYM_UPPERCASE_OSX=70, SYM_OVERRIDE=71, SYM_POSTFIX=72, 
+                   SYM_PRECEDENCE=73, SYM_PREFIX=74, SYM_PRIVATE=75, SYM_PROTOCOL=76, 
+                   SYM_UPPERCASE_PROTOCOL=77, SYM_PUBLIC=78, SYM_REQUIRED=79, 
+                   SYM_RETHROWS=80, SYM_RETURN=81, SYM_RIGHT=82, SYM_SAFE=83, 
+                   SYM_HASH_SELECTOR=84, SYM_SELF=85, SYM_SET=86, SYM_STATIC=87, 
+                   SYM_STRUCT=88, SYM_SUBSCRIPT=89, SYM_SUPER=90, SYM_SWIFT=91, 
+                   SYM_SWITCH=92, SYM_THROW=93, SYM_THROWS=94, SYM_TRUE=95, 
+                   SYM_TRY=96, SYM_TVOS=97, SYM_UPPERCASE_TYPE=98, SYM_TYPEALIAS=99, 
+                   SYM_UNOWNED=100, SYM_UNOWNED_SAFE=101, SYM_UNOWNED_UNSAFE=102, 
+                   SYM_UNSAFE=103, SYM_WATCHOS=104, SYM_WEAK=105, SYM_WHERE=106, 
+                   SYM_WILLSET=107, SYM_X86_64=108, DOT=109, LCURLY=110, 
+                   LPAREN=111, LBRACK=112, RCURLY=113, RPAREN=114, RBRACK=115, 
+                   COMMA=116, COLON=117, SEMI=118, LT=119, GT=120, UNDERSCORE=121, 
+                   BANG=122, QUESTION=123, AT=124, AND=125, SUB=126, EQUAL=127, 
+                   OR=128, DIV=129, ADD=130, MUL=131, MOD=132, CARET=133, 
+                   TILDE=134, Operator_head_other=135, Operator_following_character=136, 
+                   Implicit_parameter_name=137, Binary_literal=138, Octal_literal=139, 
+                   Decimal_literal=140, Pure_decimal_digits=141, Hexadecimal_literal=142, 
+                   Floating_point_literal=143, Static_string_literal=144, 
+                   Interpolated_string_literal=145, WS=146, Block_comment=147, 
+                   Line_comment=148
 	public static let RULE_top_level = 0, RULE_statement = 1, RULE_statements = 2, 
                    RULE_loop_statement = 3, RULE_for_statement = 4, RULE_for_init = 5, 
                    RULE_for_in_statement = 6, RULE_while_statement = 7, 
@@ -242,54 +242,54 @@ public class SwiftParser: Parser {
 
 	private static let _LITERAL_NAMES: [String?] = [
 		nil, "'for'", "'case'", "'in'", "'while'", "'let'", "'var'", "'repeat'", 
-		"'>='", "'#line'", "'__FILE__'", "'__LINE__'", "'__COLUMN__'", "'__FUNCTION__'", 
-		"'#file'", "'#column'", "'#function'", nil, nil, "'.'", "'{'", "'('", 
-		"'['", "'}'", "')'", "']'", "','", "':'", "';'", "'<'", "'>'", "'_'", 
-		"'!'", "'?'", "'@'", "'&'", "'-'", "'='", "'|'", "'/'", "'+'", "'*'", 
-		"'%'", "'^'", "'~'", "'arch'", "'arm'", "'arm64'", "'as'", "'associatedtype'", 
-		"'associativity'", "'#available'", "'break'", "'catch'", "'class'", nil, 
-		"'continue'", "'convenience'", "'default'", "'defer'", "'deinit'", "'didSet'", 
-		"'do'", "'dynamic'", "'dynamicType'", "'#else'", "'else'", "'#elseif'", 
-		"'#endif'", "'enum'", "'extension'", "'fallthrough'", "'false'", nil, 
-		"'final'", "'func'", nil, "'get'", "'guard'", "'i386'", "'#if'", "'if'", 
-		"'import'", "'indirect'", "'infix'", "'init'", "'inout'", "'internal'", 
-		"'iOS'", "'is'", "'lazy'", "'left'", nil, "'mutating'", "'nil'", "'none'", 
+		"'>='", nil, nil, "'arch'", "'arm'", "'arm64'", "'as'", "'associatedtype'", 
+		"'associativity'", "'#available'", "'break'", "'catch'", "'class'", "'#column'", 
+		"'__COLUMN__'", "'continue'", "'convenience'", "'default'", "'defer'", 
+		"'deinit'", "'didSet'", "'do'", "'dynamic'", "'dynamicType'", "'#else'", 
+		"'else'", "'#elseif'", "'#endif'", "'enum'", "'extension'", "'fallthrough'", 
+		"'false'", "'#file'", "'__FILE__'", "'final'", "'func'", "'#function'", 
+		"'__FUNCTION__'", "'get'", "'guard'", "'i386'", "'#if'", "'if'", "'import'", 
+		"'indirect'", "'infix'", "'init'", "'inout'", "'internal'", "'iOS'", "'is'", 
+		"'lazy'", "'left'", "'#line'", "'__LINE__'", "'mutating'", "'nil'", "'none'", 
 		"'nonmutating'", "'operator'", "'optional'", "'os'", "'OSX'", "'override'", 
 		"'postfix'", "'precedence'", "'prefix'", "'private'", "'protocol'", "'Protocol'", 
 		"'public'", "'required'", "'rethrows'", "'return'", "'right'", "'safe'", 
 		"'#selector'", "'self'", "'set'", "'static'", "'struct'", "'subscript'", 
 		"'super'", "'swift'", "'switch'", "'throw'", "'throws'", "'true'", "'try'", 
 		"'tvOS'", "'Type'", "'typealias'", "'unowned'", "'unowned(safe)'", "'unowned(unsafe)'", 
-		"'unsafe'", "'watchOS'", "'weak'", "'where'", "'willSet'", "'x86_64'"
+		"'unsafe'", "'watchOS'", "'weak'", "'where'", "'willSet'", "'x86_64'", 
+		"'.'", "'{'", "'('", "'['", "'}'", "')'", "']'", "','", "':'", "';'", 
+		"'<'", "'>'", "'_'", "'!'", "'?'", "'@'", "'&'", "'-'", "'='", "'|'", 
+		"'/'", "'+'", "'*'", "'%'", "'^'", "'~'"
 	]
 	private static let _SYMBOLIC_NAMES: [String?] = [
-		nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, 
-		nil, nil, nil, "Platform", "Identifier", "DOT", "LCURLY", "LPAREN", "LBRACK", 
-		"RCURLY", "RPAREN", "RBRACK", "COMMA", "COLON", "SEMI", "LT", "GT", "UNDERSCORE", 
-		"BANG", "QUESTION", "AT", "AND", "SUB", "EQUAL", "OR", "DIV", "ADD", "MUL", 
-		"MOD", "CARET", "TILDE", "SYM_ARCH", "SYM_ARM", "SYM_ARM64", "SYM_AS", 
-		"SYM_ASSOCIATEDTYPE", "SYM_ASSOCIATIVITY", "SYM_HASH_AVAILABLE", "SYM_BREAK", 
-		"SYM_CATCH", "SYM_CLASS", "SYM_HASH_COLUMN", "SYM_CONTINUE", "SYM_CONVENIENCE", 
-		"SYM_DEFAULT", "SYM_DEFER", "SYM_DEINIT", "SYM_DIDSET", "SYM_DO", "SYM_DYNAMIC", 
-		"SYM_DYNAMICTYPE", "SYM_HASH_ELSE", "SYM_ELSE", "SYM_HASH_ELSEIF", "SYM_HASH_ENDIF", 
-		"SYM_ENUM", "SYM_EXTENSION", "SYM_FALLTHROUGH", "SYM_FALSE", "SYM_HASH_FILE", 
-		"SYM_FINAL", "SYM_FUNC", "SYM_HASH_FUNCTION", "SYM_GET", "SYM_GUARD", 
-		"SYM_I386", "SYM_HASH_IF", "SYM_IF", "SYM_IMPORT", "SYM_INDIRECT", "SYM_INFIX", 
-		"SYM_INIT", "SYM_INOUT", "SYM_INTERNAL", "SYM_IOS", "SYM_IS", "SYM_LAZY", 
-		"SYM_LEFT", "SYM_HASH_LINE", "SYM_MUTATING", "SYM_NIL", "SYM_NONE", "SYM_NONMUTATING", 
-		"SYM_OPERATOR", "SYM_OPTIONAL", "SYM_OS", "SYM_UPPERCASE_OSX", "SYM_OVERRIDE", 
-		"SYM_POSTFIX", "SYM_PRECEDENCE", "SYM_PREFIX", "SYM_PRIVATE", "SYM_PROTOCOL", 
-		"SYM_UPPERCASE_PROTOCOL", "SYM_PUBLIC", "SYM_REQUIRED", "SYM_RETHROWS", 
-		"SYM_RETURN", "SYM_RIGHT", "SYM_SAFE", "SYM_HASH_SELECTOR", "SYM_SELF", 
-		"SYM_SET", "SYM_STATIC", "SYM_STRUCT", "SYM_SUBSCRIPT", "SYM_SUPER", "SYM_SWIFT", 
-		"SYM_SWITCH", "SYM_THROW", "SYM_THROWS", "SYM_TRUE", "SYM_TRY", "SYM_TVOS", 
-		"SYM_UPPERCASE_TYPE", "SYM_TYPEALIAS", "SYM_UNOWNED", "SYM_UNOWNED_SAFE", 
-		"SYM_UNOWNED_UNSAFE", "SYM_UNSAFE", "SYM_WATCHOS", "SYM_WEAK", "SYM_WHERE", 
-		"SYM_WILLSET", "SYM_X86_64", "Operator_head_other", "Operator_following_character", 
-		"Implicit_parameter_name", "Binary_literal", "Octal_literal", "Decimal_literal", 
-		"Pure_decimal_digits", "Hexadecimal_literal", "Floating_point_literal", 
-		"Static_string_literal", "Interpolated_string_literal", "WS", "Block_comment", 
-		"Line_comment"
+		nil, nil, nil, nil, nil, nil, nil, nil, nil, "Platform", "Identifier", 
+		"SYM_ARCH", "SYM_ARM", "SYM_ARM64", "SYM_AS", "SYM_ASSOCIATEDTYPE", "SYM_ASSOCIATIVITY", 
+		"SYM_HASH_AVAILABLE", "SYM_BREAK", "SYM_CATCH", "SYM_CLASS", "SYM_HASH_COLUMN", 
+		"SYM_UNDERSCORE_COLUMN", "SYM_CONTINUE", "SYM_CONVENIENCE", "SYM_DEFAULT", 
+		"SYM_DEFER", "SYM_DEINIT", "SYM_DIDSET", "SYM_DO", "SYM_DYNAMIC", "SYM_DYNAMICTYPE", 
+		"SYM_HASH_ELSE", "SYM_ELSE", "SYM_HASH_ELSEIF", "SYM_HASH_ENDIF", "SYM_ENUM", 
+		"SYM_EXTENSION", "SYM_FALLTHROUGH", "SYM_FALSE", "SYM_HASH_FILE", "SYM_UNDERSCORE_FILE", 
+		"SYM_FINAL", "SYM_FUNC", "SYM_HASH_FUNCTION", "SYM_UNDERSCORE_FUNCTION", 
+		"SYM_GET", "SYM_GUARD", "SYM_I386", "SYM_HASH_IF", "SYM_IF", "SYM_IMPORT", 
+		"SYM_INDIRECT", "SYM_INFIX", "SYM_INIT", "SYM_INOUT", "SYM_INTERNAL", 
+		"SYM_IOS", "SYM_IS", "SYM_LAZY", "SYM_LEFT", "SYM_HASH_LINE", "SYM_UNDERSCORE_LINE", 
+		"SYM_MUTATING", "SYM_NIL", "SYM_NONE", "SYM_NONMUTATING", "SYM_OPERATOR", 
+		"SYM_OPTIONAL", "SYM_OS", "SYM_UPPERCASE_OSX", "SYM_OVERRIDE", "SYM_POSTFIX", 
+		"SYM_PRECEDENCE", "SYM_PREFIX", "SYM_PRIVATE", "SYM_PROTOCOL", "SYM_UPPERCASE_PROTOCOL", 
+		"SYM_PUBLIC", "SYM_REQUIRED", "SYM_RETHROWS", "SYM_RETURN", "SYM_RIGHT", 
+		"SYM_SAFE", "SYM_HASH_SELECTOR", "SYM_SELF", "SYM_SET", "SYM_STATIC", 
+		"SYM_STRUCT", "SYM_SUBSCRIPT", "SYM_SUPER", "SYM_SWIFT", "SYM_SWITCH", 
+		"SYM_THROW", "SYM_THROWS", "SYM_TRUE", "SYM_TRY", "SYM_TVOS", "SYM_UPPERCASE_TYPE", 
+		"SYM_TYPEALIAS", "SYM_UNOWNED", "SYM_UNOWNED_SAFE", "SYM_UNOWNED_UNSAFE", 
+		"SYM_UNSAFE", "SYM_WATCHOS", "SYM_WEAK", "SYM_WHERE", "SYM_WILLSET", "SYM_X86_64", 
+		"DOT", "LCURLY", "LPAREN", "LBRACK", "RCURLY", "RPAREN", "RBRACK", "COMMA", 
+		"COLON", "SEMI", "LT", "GT", "UNDERSCORE", "BANG", "QUESTION", "AT", "AND", 
+		"SUB", "EQUAL", "OR", "DIV", "ADD", "MUL", "MOD", "CARET", "TILDE", "Operator_head_other", 
+		"Operator_following_character", "Implicit_parameter_name", "Binary_literal", 
+		"Octal_literal", "Decimal_literal", "Pure_decimal_digits", "Hexadecimal_literal", 
+		"Floating_point_literal", "Static_string_literal", "Interpolated_string_literal", 
+		"WS", "Block_comment", "Line_comment"
 	]
 	public static let VOCABULARY: Vocabulary = Vocabulary(_LITERAL_NAMES, _SYMBOLIC_NAMES)
 
@@ -2718,7 +2718,8 @@ public class SwiftParser: Parser {
 		 	_la = try _input.LA(1)
 		 	if (!(//closure
 		 	 { () -> Bool in
-		 	      let testSet = _la == SwiftParser.Platform || _la == SwiftParser.MUL
+		 	      var testSet = _la == SwiftParser.Platform
+		 	          testSet = testSet || _la == SwiftParser.MUL
 		 	      return testSet
 		 	 }())) {
 		 	try _errHandler.recoverInline(self)
@@ -3016,7 +3017,7 @@ public class SwiftParser: Parser {
 
 		 		break
 
-		 	case SwiftParser.T__8:
+		 	case SwiftParser.SYM_HASH_LINE:
 		 		try enterOuterAlt(_localctx, 2)
 		 		setState(834)
 		 		try line_control_statement()
@@ -3547,13 +3548,13 @@ public class SwiftParser: Parser {
 		 	if (!(//closure
 		 	 { () -> Bool in
 		 	      let testSet = {  () -> Bool in
-		 	   let test = ((((_la - 88)) & ~0x3f) == 0)
-		 	   let temp = Int64(((_la - 88) < 0) ? (64 + ((_la - 88) % 64 )) : ((_la - 88) % 64))
+		 	   let test = ((((_la - 57)) & ~0x3f) == 0)
+		 	   let temp = Int64(((_la - 57) < 0) ? (64 + ((_la - 57) % 64 )) : ((_la - 57) % 64))
 		 	   let test1 = (Int64(1) << temp)
-		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_IOS - 88) % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_OSX - 88)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TVOS - 88)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WATCHOS - 88)  % 64))
+		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_IOS - 57) % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_OSX - 57)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TVOS - 57)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WATCHOS - 57)  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	      return testSet
@@ -3599,8 +3600,16 @@ public class SwiftParser: Parser {
 		 	_la = try _input.LA(1)
 		 	if (!(//closure
 		 	 { () -> Bool in
-		 	      var testSet = _la == SwiftParser.SYM_ARM || _la == SwiftParser.SYM_ARM64
-		 	          testSet = testSet || _la == SwiftParser.SYM_I386 || _la == SwiftParser.SYM_X86_64
+		 	      var testSet = {  () -> Bool in
+		 	   let test = (((_la) & ~0x3f) == 0)
+		 	   let temp = Int64((_la < 0) ? (64 + (_la % 64 )) : (_la % 64))
+		 	   let test1 = (Int64(1) << temp)
+		 	   var test2 = ((Int64(1) << Int64(SwiftParser.SYM_ARM % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ARM64  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_I386  % 64))
+		 	    return test && (( test1 & test2 ) != 0)
+		 	}()
+		 	          testSet = testSet || _la == SwiftParser.SYM_X86_64
 		 	      return testSet
 		 	 }())) {
 		 	try _errHandler.recoverInline(self)
@@ -3736,13 +3745,13 @@ public class SwiftParser: Parser {
 		 	case 1:
 		 		try enterOuterAlt(_localctx, 1)
 		 		setState(915)
-		 		try match(SwiftParser.T__8)
+		 		try match(SwiftParser.SYM_HASH_LINE)
 
 		 		break
 		 	case 2:
 		 		try enterOuterAlt(_localctx, 2)
 		 		setState(916)
-		 		try match(SwiftParser.T__8)
+		 		try match(SwiftParser.SYM_HASH_LINE)
 		 		setState(917)
 		 		try line_number()
 		 		setState(918)
@@ -4619,45 +4628,45 @@ public class SwiftParser: Parser {
 		 	   let test1 = (Int64(1) << temp)
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__4 % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.T__5  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.AT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DEINIT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ENUM  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_EXTENSION  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_IMPORT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INIT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 69)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 69) < 0) ? (64 + ((_la - 69) % 64 )) : ((_la - 69) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_ENUM - 69) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_EXTENSION - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FINAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_IMPORT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INIT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 69)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.AT - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
-		 	          testSet = testSet || _la == SwiftParser.SYM_WEAK
 		 	      return testSet
 		 	 }())
 
@@ -4812,16 +4821,23 @@ public class SwiftParser: Parser {
 		 	_la = try _input.LA(1)
 		 	if (//closure
 		 	 { () -> Bool in
-		 	      var testSet = _la == SwiftParser.T__5 || _la == SwiftParser.SYM_CLASS
+		 	      var testSet = {  () -> Bool in
+		 	   let test = (((_la) & ~0x3f) == 0)
+		 	   let temp = Int64((_la < 0) ? (64 + (_la % 64 )) : (_la % 64))
+		 	   let test1 = (Int64(1) << temp)
+		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__5 % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ENUM  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	    return test && (( test1 & test2 ) != 0)
+		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 69)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 69) < 0) ? (64 + ((_la - 69) % 64 )) : ((_la - 69) % 64))
+		 	             let test = ((((_la - 76)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 76) < 0) ? (64 + ((_la - 76) % 64 )) : ((_la - 76) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_ENUM - 69) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 69)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 76) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 76)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 76)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -4870,16 +4886,23 @@ public class SwiftParser: Parser {
 		 	_la = try _input.LA(1)
 		 	if (!(//closure
 		 	 { () -> Bool in
-		 	      var testSet = _la == SwiftParser.T__5 || _la == SwiftParser.SYM_CLASS
+		 	      var testSet = {  () -> Bool in
+		 	   let test = (((_la) & ~0x3f) == 0)
+		 	   let temp = Int64((_la < 0) ? (64 + (_la % 64 )) : (_la % 64))
+		 	   let test1 = (Int64(1) << temp)
+		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__5 % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ENUM  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	    return test && (( test1 & test2 ) != 0)
+		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 69)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 69) < 0) ? (64 + ((_la - 69) % 64 )) : ((_la - 69) % 64))
+		 	             let test = ((((_la - 76)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 76) < 0) ? (64 + ((_la - 76) % 64 )) : ((_la - 76) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_ENUM - 69) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 69)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 76) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 76)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 76)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -5104,28 +5127,28 @@ public class SwiftParser: Parser {
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.SYM_CLASS % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -5501,28 +5524,28 @@ public class SwiftParser: Parser {
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.SYM_CLASS % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -5621,8 +5644,7 @@ public class SwiftParser: Parser {
 		 		_la = try _input.LA(1)
 		 		if (//closure
 		 		 { () -> Bool in
-		 		      var testSet = _la == SwiftParser.AT
-		 		          testSet = testSet || _la == SwiftParser.SYM_SET
+		 		      let testSet = _la == SwiftParser.SYM_SET || _la == SwiftParser.AT
 		 		      return testSet
 		 		 }()) {
 		 			setState(1119)
@@ -5863,8 +5885,7 @@ public class SwiftParser: Parser {
 		 		_la = try _input.LA(1)
 		 		if (//closure
 		 		 { () -> Bool in
-		 		      var testSet = _la == SwiftParser.AT
-		 		          testSet = testSet || _la == SwiftParser.SYM_SET
+		 		      let testSet = _la == SwiftParser.SYM_SET || _la == SwiftParser.AT
 		 		      return testSet
 		 		 }()) {
 		 			setState(1152)
@@ -6039,7 +6060,8 @@ public class SwiftParser: Parser {
 		 		_la = try _input.LA(1)
 		 		if (//closure
 		 		 { () -> Bool in
-		 		      let testSet = _la == SwiftParser.AT || _la == SwiftParser.SYM_DIDSET
+		 		      var testSet = _la == SwiftParser.SYM_DIDSET
+		 		          testSet = testSet || _la == SwiftParser.AT
 		 		      return testSet
 		 		 }()) {
 		 			setState(1176)
@@ -6305,12 +6327,12 @@ public class SwiftParser: Parser {
 		 	if (//closure
 		 	 { () -> Bool in
 		 	      let testSet = {  () -> Bool in
-		 	   let test = ((((_la - 87)) & ~0x3f) == 0)
-		 	   let temp = Int64(((_la - 87) < 0) ? (64 + ((_la - 87) % 64 )) : ((_la - 87) % 64))
+		 	   let test = ((((_la - 56)) & ~0x3f) == 0)
+		 	   let temp = Int64(((_la - 56) < 0) ? (64 + ((_la - 56) % 64 )) : ((_la - 56) % 64))
 		 	   let test1 = (Int64(1) << temp)
-		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 87) % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 87)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 87)  % 64))
+		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 56) % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 56)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 56)  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	      return testSet
@@ -6540,28 +6562,28 @@ public class SwiftParser: Parser {
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.SYM_CLASS % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -7438,12 +7460,12 @@ public class SwiftParser: Parser {
 		 		if (//closure
 		 		 { () -> Bool in
 		 		      let testSet = {  () -> Bool in
-		 		   let test = ((((_la - 87)) & ~0x3f) == 0)
-		 		   let temp = Int64(((_la - 87) < 0) ? (64 + ((_la - 87) % 64 )) : ((_la - 87) % 64))
+		 		   let test = ((((_la - 56)) & ~0x3f) == 0)
+		 		   let temp = Int64(((_la - 56) < 0) ? (64 + ((_la - 56) % 64 )) : ((_la - 56) % 64))
 		 		   let test1 = (Int64(1) << temp)
-		 		   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 87) % 64)))
-		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 87)  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 87)  % 64))
+		 		   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 56) % 64)))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 56)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 56)  % 64))
 		 		    return test && (( test1 & test2 ) != 0)
 		 		}()
 		 		      return testSet
@@ -7476,12 +7498,12 @@ public class SwiftParser: Parser {
 		 		if (//closure
 		 		 { () -> Bool in
 		 		      let testSet = {  () -> Bool in
-		 		   let test = ((((_la - 87)) & ~0x3f) == 0)
-		 		   let temp = Int64(((_la - 87) < 0) ? (64 + ((_la - 87) % 64 )) : ((_la - 87) % 64))
+		 		   let test = ((((_la - 56)) & ~0x3f) == 0)
+		 		   let temp = Int64(((_la - 56) < 0) ? (64 + ((_la - 56) % 64 )) : ((_la - 56) % 64))
 		 		   let test1 = (Int64(1) << temp)
-		 		   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 87) % 64)))
-		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 87)  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 87)  % 64))
+		 		   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 56) % 64)))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 56)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 56)  % 64))
 		 		    return test && (( test1 & test2 ) != 0)
 		 		}()
 		 		      return testSet
@@ -7594,45 +7616,45 @@ public class SwiftParser: Parser {
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__1 % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.T__4  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.T__5  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.AT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DEINIT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ENUM  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_EXTENSION  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_IMPORT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INIT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 69)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 69) < 0) ? (64 + ((_la - 69) % 64 )) : ((_la - 69) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_ENUM - 69) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_EXTENSION - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FINAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_IMPORT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INIT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 69)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.AT - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
-		 	          testSet = testSet || _la == SwiftParser.SYM_WEAK
 		 	      return testSet
 		 	 }()) {
 		 		setState(1365)
@@ -7694,45 +7716,45 @@ public class SwiftParser: Parser {
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__1 % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.T__4  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.T__5  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.AT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DEINIT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ENUM  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_EXTENSION  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_IMPORT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INIT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 69)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 69) < 0) ? (64 + ((_la - 69) % 64 )) : ((_la - 69) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_ENUM - 69) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_EXTENSION - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FINAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_IMPORT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INIT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 69)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.AT - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
-		 	          testSet = testSet || _la == SwiftParser.SYM_WEAK
 		 	      return testSet
 		 	 }()) {
 		 		setState(1371)
@@ -8163,45 +8185,45 @@ public class SwiftParser: Parser {
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__1 % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.T__4  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.T__5  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.AT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DEINIT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ENUM  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_EXTENSION  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_IMPORT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INIT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 69)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 69) < 0) ? (64 + ((_la - 69) % 64 )) : ((_la - 69) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_ENUM - 69) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_EXTENSION - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FINAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_IMPORT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INIT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 69)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.AT - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
-		 	          testSet = testSet || _la == SwiftParser.SYM_WEAK
 		 	      return testSet
 		 	 }()) {
 		 		setState(1413)
@@ -8590,12 +8612,12 @@ public class SwiftParser: Parser {
 		 	if (//closure
 		 	 { () -> Bool in
 		 	      let testSet = {  () -> Bool in
-		 	   let test = ((((_la - 87)) & ~0x3f) == 0)
-		 	   let temp = Int64(((_la - 87) < 0) ? (64 + ((_la - 87) % 64 )) : ((_la - 87) % 64))
+		 	   let test = ((((_la - 56)) & ~0x3f) == 0)
+		 	   let temp = Int64(((_la - 56) < 0) ? (64 + ((_la - 56) % 64 )) : ((_la - 56) % 64))
 		 	   let test1 = (Int64(1) << temp)
-		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 87) % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 87)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 87)  % 64))
+		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 56) % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 56)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 56)  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	      return testSet
@@ -8720,45 +8742,45 @@ public class SwiftParser: Parser {
 		 	   let test1 = (Int64(1) << temp)
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__4 % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.T__5  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.AT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DEINIT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ENUM  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_EXTENSION  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_IMPORT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INIT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 69)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 69) < 0) ? (64 + ((_la - 69) % 64 )) : ((_la - 69) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_ENUM - 69) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_EXTENSION - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FINAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_IMPORT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INIT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 69)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.AT - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
-		 	          testSet = testSet || _la == SwiftParser.SYM_WEAK
 		 	      return testSet
 		 	 }()) {
 		 		setState(1464)
@@ -8836,12 +8858,12 @@ public class SwiftParser: Parser {
 		 	if (//closure
 		 	 { () -> Bool in
 		 	      let testSet = {  () -> Bool in
-		 	   let test = ((((_la - 87)) & ~0x3f) == 0)
-		 	   let temp = Int64(((_la - 87) < 0) ? (64 + ((_la - 87) % 64 )) : ((_la - 87) % 64))
+		 	   let test = ((((_la - 56)) & ~0x3f) == 0)
+		 	   let temp = Int64(((_la - 56) < 0) ? (64 + ((_la - 56) % 64 )) : ((_la - 56) % 64))
 		 	   let test1 = (Int64(1) << temp)
-		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 87) % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 87)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 87)  % 64))
+		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 56) % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 56)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 56)  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	      return testSet
@@ -8966,45 +8988,45 @@ public class SwiftParser: Parser {
 		 	   let test1 = (Int64(1) << temp)
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__4 % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.T__5  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.AT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DEINIT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ENUM  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_EXTENSION  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_IMPORT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INIT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 69)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 69) < 0) ? (64 + ((_la - 69) % 64 )) : ((_la - 69) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_ENUM - 69) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_EXTENSION - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FINAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_IMPORT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INIT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 69)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.AT - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
-		 	          testSet = testSet || _la == SwiftParser.SYM_WEAK
 		 	      return testSet
 		 	 }()) {
 		 		setState(1488)
@@ -9079,12 +9101,12 @@ public class SwiftParser: Parser {
 		 	if (//closure
 		 	 { () -> Bool in
 		 	      let testSet = {  () -> Bool in
-		 	   let test = ((((_la - 87)) & ~0x3f) == 0)
-		 	   let temp = Int64(((_la - 87) < 0) ? (64 + ((_la - 87) % 64 )) : ((_la - 87) % 64))
+		 	   let test = ((((_la - 56)) & ~0x3f) == 0)
+		 	   let temp = Int64(((_la - 56) < 0) ? (64 + ((_la - 56) % 64 )) : ((_la - 56) % 64))
 		 	   let test1 = (Int64(1) << temp)
-		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 87) % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 87)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 87)  % 64))
+		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 56) % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 56)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 56)  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	      return testSet
@@ -9196,36 +9218,36 @@ public class SwiftParser: Parser {
 		 	   let temp = Int64((_la < 0) ? (64 + (_la % 64 )) : (_la % 64))
 		 	   let test1 = (Int64(1) << temp)
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__5 % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.AT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ASSOCIATEDTYPE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INIT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INIT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.AT - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -9366,36 +9388,36 @@ public class SwiftParser: Parser {
 		 	   let temp = Int64((_la < 0) ? (64 + (_la % 64 )) : (_la % 64))
 		 	   let test1 = (Int64(1) << temp)
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__5 % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.AT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ASSOCIATEDTYPE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INIT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INIT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.AT - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -9730,12 +9752,12 @@ public class SwiftParser: Parser {
 		 	if (//closure
 		 	 { () -> Bool in
 		 	      let testSet = {  () -> Bool in
-		 	   let test = ((((_la - 87)) & ~0x3f) == 0)
-		 	   let temp = Int64(((_la - 87) < 0) ? (64 + ((_la - 87) % 64 )) : ((_la - 87) % 64))
+		 	   let test = ((((_la - 56)) & ~0x3f) == 0)
+		 	   let temp = Int64(((_la - 56) < 0) ? (64 + ((_la - 56) % 64 )) : ((_la - 56) % 64))
 		 	   let test1 = (Int64(1) << temp)
-		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 87) % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 87)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 87)  % 64))
+		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 56) % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 56)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 56)  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	      return testSet
@@ -9937,28 +9959,28 @@ public class SwiftParser: Parser {
 		 		   var test2 = ((Int64(1) << Int64(SwiftParser.SYM_CLASS % 64)))
 		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 		    return test && (( test1 & test2 ) != 0)
 		 		}()
 		 		          testSet = testSet || {  () -> Bool in
-		 		             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 		             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 		             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 		             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 		             let test1 = (Int64(1) << temp)
-		 		             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
+		 		             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
 		 		              return test && (( test1 & test2 ) != 0)
 		 		          }()
 		 		      return testSet
@@ -9997,28 +10019,28 @@ public class SwiftParser: Parser {
 		 		   var test2 = ((Int64(1) << Int64(SwiftParser.SYM_CLASS % 64)))
 		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 		    return test && (( test1 & test2 ) != 0)
 		 		}()
 		 		          testSet = testSet || {  () -> Bool in
-		 		             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 		             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 		             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 		             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 		             let test1 = (Int64(1) << temp)
-		 		             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
+		 		             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
 		 		              return test && (( test1 & test2 ) != 0)
 		 		          }()
 		 		      return testSet
@@ -10059,28 +10081,28 @@ public class SwiftParser: Parser {
 		 		   var test2 = ((Int64(1) << Int64(SwiftParser.SYM_CLASS % 64)))
 		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 		    return test && (( test1 & test2 ) != 0)
 		 		}()
 		 		          testSet = testSet || {  () -> Bool in
-		 		             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 		             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 		             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 		             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 		             let test1 = (Int64(1) << temp)
-		 		             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
+		 		             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 		             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
 		 		              return test && (( test1 & test2 ) != 0)
 		 		          }()
 		 		      return testSet
@@ -10239,12 +10261,12 @@ public class SwiftParser: Parser {
 		 	if (//closure
 		 	 { () -> Bool in
 		 	      let testSet = {  () -> Bool in
-		 	   let test = ((((_la - 87)) & ~0x3f) == 0)
-		 	   let temp = Int64(((_la - 87) < 0) ? (64 + ((_la - 87) % 64 )) : ((_la - 87) % 64))
+		 	   let test = ((((_la - 56)) & ~0x3f) == 0)
+		 	   let temp = Int64(((_la - 56) < 0) ? (64 + ((_la - 56) % 64 )) : ((_la - 56) % 64))
 		 	   let test1 = (Int64(1) << temp)
-		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 87) % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 87)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 87)  % 64))
+		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 56) % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 56)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 56)  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	      return testSet
@@ -10320,45 +10342,45 @@ public class SwiftParser: Parser {
 		 	   let test1 = (Int64(1) << temp)
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.T__4 % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.T__5  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.AT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CLASS  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DEINIT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ENUM  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_EXTENSION  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FUNC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_IMPORT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INIT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 69)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 69) < 0) ? (64 + ((_la - 69) % 64 )) : ((_la - 69) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_ENUM - 69) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_EXTENSION - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FINAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_FUNC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_IMPORT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INIT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 69)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 69)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STRUCT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SUBSCRIPT - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_TYPEALIAS - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.AT - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
-		 	          testSet = testSet || _la == SwiftParser.SYM_WEAK
 		 	      return testSet
 		 	 }()) {
 		 		setState(1636)
@@ -10512,28 +10534,28 @@ public class SwiftParser: Parser {
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.SYM_CLASS % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -11025,12 +11047,12 @@ public class SwiftParser: Parser {
 		 	if (!(//closure
 		 	 { () -> Bool in
 		 	      let testSet = {  () -> Bool in
-		 	   let test = ((((_la - 91)) & ~0x3f) == 0)
-		 	   let temp = Int64(((_la - 91) < 0) ? (64 + ((_la - 91) % 64 )) : ((_la - 91) % 64))
+		 	   let test = ((((_la - 60)) & ~0x3f) == 0)
+		 	   let temp = Int64(((_la - 60) < 0) ? (64 + ((_la - 60) % 64 )) : ((_la - 60) % 64))
 		 	   let test1 = (Int64(1) << temp)
-		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_LEFT - 91) % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONE - 91)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 91)  % 64))
+		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_LEFT - 60) % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONE - 60)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 60)  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	      return testSet
@@ -11254,28 +11276,28 @@ public class SwiftParser: Parser {
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.SYM_CLASS % 64)))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INTERNAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 66)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 66) < 0) ? (64 + ((_la - 66) % 64 )) : ((_la - 66) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INTERNAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 66) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRIVATE - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PUBLIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_STATIC - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 66)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 66)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -11890,35 +11912,35 @@ public class SwiftParser: Parser {
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DIDSET  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_GET  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LEFT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 65)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 65) < 0) ? (64 + ((_la - 65) % 64 )) : ((_la - 65) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_GET - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LEFT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPERATOR - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRECEDENCE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_PROTOCOL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SET - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_TYPE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WILLSET - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONE - 65) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPERATOR - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRECEDENCE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_PROTOCOL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SET - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_TYPE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WILLSET - 65)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -13168,49 +13190,49 @@ public class SwiftParser: Parser {
 		 	case 4:
 		 		try enterOuterAlt(_localctx, 4)
 		 		setState(1964)
-		 		try match(SwiftParser.T__9)
+		 		try match(SwiftParser.SYM_UNDERSCORE_FILE)
 
 		 		break
 		 	case 5:
 		 		try enterOuterAlt(_localctx, 5)
 		 		setState(1965)
-		 		try match(SwiftParser.T__10)
+		 		try match(SwiftParser.SYM_UNDERSCORE_LINE)
 
 		 		break
 		 	case 6:
 		 		try enterOuterAlt(_localctx, 6)
 		 		setState(1966)
-		 		try match(SwiftParser.T__11)
+		 		try match(SwiftParser.SYM_UNDERSCORE_COLUMN)
 
 		 		break
 		 	case 7:
 		 		try enterOuterAlt(_localctx, 7)
 		 		setState(1967)
-		 		try match(SwiftParser.T__12)
+		 		try match(SwiftParser.SYM_UNDERSCORE_FUNCTION)
 
 		 		break
 		 	case 8:
 		 		try enterOuterAlt(_localctx, 8)
 		 		setState(1968)
-		 		try match(SwiftParser.T__13)
+		 		try match(SwiftParser.SYM_HASH_FILE)
 
 		 		break
 		 	case 9:
 		 		try enterOuterAlt(_localctx, 9)
 		 		setState(1969)
-		 		try match(SwiftParser.T__8)
+		 		try match(SwiftParser.SYM_HASH_LINE)
 
 		 		break
 		 	case 10:
 		 		try enterOuterAlt(_localctx, 10)
 		 		setState(1970)
-		 		try match(SwiftParser.T__14)
+		 		try match(SwiftParser.SYM_HASH_COLUMN)
 
 		 		break
 		 	case 11:
 		 		try enterOuterAlt(_localctx, 11)
 		 		setState(1971)
-		 		try match(SwiftParser.T__15)
+		 		try match(SwiftParser.SYM_HASH_FUNCTION)
 
 		 		break
 		 	default: break
@@ -14174,13 +14196,13 @@ public class SwiftParser: Parser {
 		 	if (!(//closure
 		 	 { () -> Bool in
 		 	      let testSet = {  () -> Bool in
-		 	   let test = ((((_la - 130)) & ~0x3f) == 0)
-		 	   let temp = Int64(((_la - 130) < 0) ? (64 + ((_la - 130) % 64 )) : ((_la - 130) % 64))
+		 	   let test = ((((_la - 100)) & ~0x3f) == 0)
+		 	   let temp = Int64(((_la - 100) < 0) ? (64 + ((_la - 100) % 64 )) : ((_la - 100) % 64))
 		 	   let test1 = (Int64(1) << temp)
-		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 130) % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED_SAFE - 130)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED_UNSAFE - 130)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 130)  % 64))
+		 	   var test2 = ((Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 100) % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED_SAFE - 100)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED_UNSAFE - 100)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 100)  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	      return testSet
@@ -15001,35 +15023,35 @@ public class SwiftParser: Parser {
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DIDSET  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_GET  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LEFT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 65)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 65) < 0) ? (64 + ((_la - 65) % 64 )) : ((_la - 65) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_GET - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LEFT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPERATOR - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRECEDENCE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_PROTOCOL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SET - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_TYPE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WILLSET - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONE - 65) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPERATOR - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRECEDENCE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_PROTOCOL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SET - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_TYPE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WILLSET - 65)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -15542,44 +15564,44 @@ public class SwiftParser: Parser {
 		 	   let temp = Int64((_la < 0) ? (64 + (_la % 64 )) : (_la % 64))
 		 	   let test1 = (Int64(1) << temp)
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.Identifier % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.LPAREN  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.LBRACK  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.AT  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ASSOCIATIVITY  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DIDSET  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_GET  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INOUT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LEFT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 65)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 65) < 0) ? (64 + ((_la - 65) % 64 )) : ((_la - 65) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_GET - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INOUT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LEFT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPERATOR - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRECEDENCE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_PROTOCOL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SET - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_TYPE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WILLSET - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONE - 65) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPERATOR - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRECEDENCE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PROTOCOL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_PROTOCOL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SET - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_TYPE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WILLSET - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.LPAREN - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.LBRACK - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.AT - 65)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -15879,40 +15901,40 @@ public class SwiftParser: Parser {
 		 	   let temp = Int64((_la < 0) ? (64 + (_la % 64 )) : (_la % 64))
 		 	   let test1 = (Int64(1) << temp)
 		 	   var test2 = ((Int64(1) << Int64(SwiftParser.Identifier % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.COMMA  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_ASSOCIATIVITY  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DIDSET  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_GET  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LEFT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 65)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 65) < 0) ? (64 + ((_la - 65) % 64 )) : ((_la - 65) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_GET - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LEFT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPERATOR - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRECEDENCE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_PROTOCOL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SET - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_TYPE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WILLSET - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONE - 65) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPERATOR - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRECEDENCE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_PROTOCOL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SET - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_TYPE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WILLSET - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.COMMA - 65)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -16396,35 +16418,35 @@ public class SwiftParser: Parser {
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_CONVENIENCE  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DIDSET  % 64))
 		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_DYNAMIC  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_FINAL  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_GET  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INDIRECT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_INFIX  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LAZY  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_LEFT  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64(SwiftParser.SYM_MUTATING  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	          testSet = testSet || {  () -> Bool in
-		 	             let test = ((((_la - 74)) & ~0x3f) == 0)
-		 	             let temp = Int64(((_la - 74) < 0) ? (64 + ((_la - 74) % 64 )) : ((_la - 74) % 64))
+		 	             let test = ((((_la - 65)) & ~0x3f) == 0)
+		 	             let temp = Int64(((_la - 65) < 0) ? (64 + ((_la - 65) % 64 )) : ((_la - 65) % 64))
 		 	             let test1 = (Int64(1) << temp)
-		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_FINAL - 74) % 64)))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_GET - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INDIRECT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_INFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LAZY - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_LEFT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_MUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPERATOR - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRECEDENCE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_PROTOCOL - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SET - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_TYPE - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 74)  % 64))
-		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WILLSET - 74)  % 64))
+		 	             var test2 = ((Int64(1) << Int64((SwiftParser.SYM_NONE - 65) % 64)))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_NONMUTATING - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPERATOR - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OPTIONAL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_OVERRIDE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_POSTFIX - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PRECEDENCE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_PREFIX - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_PROTOCOL - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_REQUIRED - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_RIGHT - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_SET - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UPPERCASE_TYPE - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_UNOWNED - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WEAK - 65)  % 64))
+		 	             test2 = test2 | (Int64(1) << Int64((SwiftParser.SYM_WILLSET - 65)  % 64))
 		 	              return test && (( test1 & test2 ) != 0)
 		 	          }()
 		 	      return testSet
@@ -17072,23 +17094,23 @@ public class SwiftParser: Parser {
 		 		if (!(//closure
 		 		 { () -> Bool in
 		 		      let testSet = {  () -> Bool in
-		 		   let test = (((_la) & ~0x3f) == 0)
-		 		   let temp = Int64((_la < 0) ? (64 + (_la % 64 )) : (_la % 64))
+		 		   let test = ((((_la - 119)) & ~0x3f) == 0)
+		 		   let temp = Int64(((_la - 119) < 0) ? (64 + ((_la - 119) % 64 )) : ((_la - 119) % 64))
 		 		   let test1 = (Int64(1) << temp)
-		 		   var test2 = ((Int64(1) << Int64(SwiftParser.LT % 64)))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.GT  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.BANG  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.QUESTION  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.AND  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.SUB  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.EQUAL  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.OR  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.DIV  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.ADD  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.MUL  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.MOD  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.CARET  % 64))
-		 		   test2 = test2 | (Int64(1) << Int64(SwiftParser.TILDE  % 64))
+		 		   var test2 = ((Int64(1) << Int64((SwiftParser.LT - 119) % 64)))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.GT - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.BANG - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.QUESTION - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.AND - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.SUB - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.EQUAL - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.OR - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.DIV - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.ADD - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.MUL - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.MOD - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.CARET - 119)  % 64))
+		 		   test2 = test2 | (Int64(1) << Int64((SwiftParser.TILDE - 119)  % 64))
 		 		    return test && (( test1 & test2 ) != 0)
 		 		}()
 		 		      return testSet
@@ -17471,14 +17493,14 @@ public class SwiftParser: Parser {
 		 	if (!(//closure
 		 	 { () -> Bool in
 		 	      let testSet = {  () -> Bool in
-		 	   let test = ((((_la - 142)) & ~0x3f) == 0)
-		 	   let temp = Int64(((_la - 142) < 0) ? (64 + ((_la - 142) % 64 )) : ((_la - 142) % 64))
+		 	   let test = ((((_la - 138)) & ~0x3f) == 0)
+		 	   let temp = Int64(((_la - 138) < 0) ? (64 + ((_la - 138) % 64 )) : ((_la - 138) % 64))
 		 	   let test1 = (Int64(1) << temp)
-		 	   var test2 = ((Int64(1) << Int64((SwiftParser.Binary_literal - 142) % 64)))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.Octal_literal - 142)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.Decimal_literal - 142)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.Pure_decimal_digits - 142)  % 64))
-		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.Hexadecimal_literal - 142)  % 64))
+		 	   var test2 = ((Int64(1) << Int64((SwiftParser.Binary_literal - 138) % 64)))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.Octal_literal - 138)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.Decimal_literal - 138)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.Pure_decimal_digits - 138)  % 64))
+		 	   test2 = test2 | (Int64(1) << Int64((SwiftParser.Hexadecimal_literal - 138)  % 64))
 		 	    return test && (( test1 & test2 ) != 0)
 		 	}()
 		 	      return testSet

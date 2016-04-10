@@ -960,33 +960,6 @@ From doc on operators:
 
 assignment_operator : {SwiftSupport.isBinaryOp(_input)}? '=' ;
 
-DOT    	: '.' ;
-LCURLY 	: '{' ;
-LPAREN 	: '(' ;
-LBRACK 	: '[' ;
-RCURLY 	: '}' ;
-RPAREN 	: ')' ;
-RBRACK 	: ']' ;
-COMMA  	: ',' ;
-COLON  	: ':' ;
-SEMI   	: ';' ;
-LT 		: '<' ;
-GT 		: '>' ;
-UNDERSCORE : '_' ;
-BANG 	: '!' ;
-QUESTION: '?' ;
-AT 		: '@' ;
-AND 	: '&' ;
-SUB 	: '-' ;
-EQUAL 	: '=' ;
-OR 		: '|' ;
-DIV 	: '/' ;
-ADD 	: '+' ;
-MUL 	: '*' ;
-MOD 	: '%' ;
-CARET 	: '^' ;
-TILDE 	: '~' ;
-
 /*
 "'([#_]*)([a-zA-Z]?[_a-zA-Z0-9]*?[a-zA-Z0-9])([#_]*?)'",
 SYM_\U$2 : '\E$1$2$3' ;
@@ -1008,7 +981,8 @@ SYM_HASH_AVAILABLE : '#available' ;
 SYM_BREAK : 'break' ;
 SYM_CATCH : 'catch' ;
 SYM_CLASS : 'class' ;
-SYM_HASH_COLUMN : '#column' | '__COLUMN__' ;
+SYM_HASH_COLUMN : '#column' ;
+SYM_UNDERSCORE_COLUMN : '__COLUMN__' ;
 SYM_CONTINUE : 'continue' ;
 SYM_CONVENIENCE : 'convenience' ;
 SYM_DEFAULT : 'default' ;
@@ -1026,10 +1000,12 @@ SYM_ENUM : 'enum' ;
 SYM_EXTENSION : 'extension' ;
 SYM_FALLTHROUGH : 'fallthrough' ;
 SYM_FALSE : 'false' ;
-SYM_HASH_FILE : '#file' | '__FILE__' ;
+SYM_HASH_FILE : '#file' ;
+SYM_UNDERSCORE_FILE : '__FILE__' ;
 SYM_FINAL : 'final' ;
 SYM_FUNC : 'func' ;
-SYM_HASH_FUNCTION : '#function' | '__FUNCTION__' ;
+SYM_HASH_FUNCTION : '#function' ;
+SYM_UNDERSCORE_FUNCTION : '__FUNCTION__' ;
 SYM_GET : 'get' ;
 SYM_GUARD : 'guard' ;
 SYM_I386 : 'i386' ;
@@ -1045,7 +1021,8 @@ SYM_IOS : 'iOS' ;
 SYM_IS : 'is' ;
 SYM_LAZY : 'lazy' ;
 SYM_LEFT : 'left' ;
-SYM_HASH_LINE : '#line' | '__LINE__' ;
+SYM_HASH_LINE : '#line' ;
+SYM_UNDERSCORE_LINE : '__LINE__' ;
 SYM_MUTATING : 'mutating' ;
 SYM_NIL : 'nil' ;
 SYM_NONE : 'none' ;
@@ -1092,6 +1069,33 @@ SYM_WEAK : 'weak' ;
 SYM_WHERE : 'where' ;
 SYM_WILLSET : 'willSet' ;
 SYM_X86_64 : 'x86_64' ;
+
+DOT    	: '.' ;
+LCURLY 	: '{' ;
+LPAREN 	: '(' ;
+LBRACK 	: '[' ;
+RCURLY 	: '}' ;
+RPAREN 	: ')' ;
+RBRACK 	: ']' ;
+COMMA  	: ',' ;
+COLON  	: ':' ;
+SEMI   	: ';' ;
+LT 		: '<' ;
+GT 		: '>' ;
+UNDERSCORE : '_' ;
+BANG 	: '!' ;
+QUESTION: '?' ;
+AT 		: '@' ;
+AND 	: '&' ;
+SUB 	: '-' ;
+EQUAL 	: '=' ;
+OR 		: '|' ;
+DIV 	: '/' ;
+ADD 	: '+' ;
+MUL 	: '*' ;
+MOD 	: '%' ;
+CARET 	: '^' ;
+TILDE 	: '~' ;
 
 /** Need to separate this out from Prefix_operator as it's referenced in numeric_literal
  *  as specifically a negation prefix op.
