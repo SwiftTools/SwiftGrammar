@@ -2803,17 +2803,145 @@ public protocol SwiftListener: ParseTreeListener {
 	 */
 	func exitTrailing_closure(ctx: SwiftParser.Trailing_closureContext)
 	/**
-	 * Enter a parse tree produced by {@link SwiftParser#type}.
+	 * Enter a parse tree produced by the {@code TypeArray}
+	 * labeled alternative in {@link SwiftParser#type}.
 	 - Parameters:
 	   - ctx: the parse tree
 	 */
-	func enterType(ctx: SwiftParser.TypeContext)
+	func enterTypeArray(ctx: SwiftParser.TypeArrayContext)
 	/**
-	 * Exit a parse tree produced by {@link SwiftParser#type}.
+	 * Exit a parse tree produced by the {@code TypeArray}
+	 * labeled alternative in {@link SwiftParser#type}.
 	 - Parameters:
 	   - ctx: the parse tree
 	 */
-	func exitType(ctx: SwiftParser.TypeContext)
+	func exitTypeArray(ctx: SwiftParser.TypeArrayContext)
+	/**
+	 * Enter a parse tree produced by the {@code TypeTypeType}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterTypeTypeType(ctx: SwiftParser.TypeTypeTypeContext)
+	/**
+	 * Exit a parse tree produced by the {@code TypeTypeType}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitTypeTypeType(ctx: SwiftParser.TypeTypeTypeContext)
+	/**
+	 * Enter a parse tree produced by the {@code TypeIdentifier}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterTypeIdentifier(ctx: SwiftParser.TypeIdentifierContext)
+	/**
+	 * Exit a parse tree produced by the {@code TypeIdentifier}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitTypeIdentifier(ctx: SwiftParser.TypeIdentifierContext)
+	/**
+	 * Enter a parse tree produced by the {@code TypeTuple}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterTypeTuple(ctx: SwiftParser.TypeTupleContext)
+	/**
+	 * Exit a parse tree produced by the {@code TypeTuple}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitTypeTuple(ctx: SwiftParser.TypeTupleContext)
+	/**
+	 * Enter a parse tree produced by the {@code TypeOptional}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterTypeOptional(ctx: SwiftParser.TypeOptionalContext)
+	/**
+	 * Exit a parse tree produced by the {@code TypeOptional}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitTypeOptional(ctx: SwiftParser.TypeOptionalContext)
+	/**
+	 * Enter a parse tree produced by the {@code TypeClosure}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterTypeClosure(ctx: SwiftParser.TypeClosureContext)
+	/**
+	 * Exit a parse tree produced by the {@code TypeClosure}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitTypeClosure(ctx: SwiftParser.TypeClosureContext)
+	/**
+	 * Enter a parse tree produced by the {@code TypeImplicitlyUnwrappedOptional}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterTypeImplicitlyUnwrappedOptional(ctx: SwiftParser.TypeImplicitlyUnwrappedOptionalContext)
+	/**
+	 * Exit a parse tree produced by the {@code TypeImplicitlyUnwrappedOptional}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitTypeImplicitlyUnwrappedOptional(ctx: SwiftParser.TypeImplicitlyUnwrappedOptionalContext)
+	/**
+	 * Enter a parse tree produced by the {@code TypeProtocolType}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterTypeProtocolType(ctx: SwiftParser.TypeProtocolTypeContext)
+	/**
+	 * Exit a parse tree produced by the {@code TypeProtocolType}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitTypeProtocolType(ctx: SwiftParser.TypeProtocolTypeContext)
+	/**
+	 * Enter a parse tree produced by the {@code TypeDictionary}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterTypeDictionary(ctx: SwiftParser.TypeDictionaryContext)
+	/**
+	 * Exit a parse tree produced by the {@code TypeDictionary}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitTypeDictionary(ctx: SwiftParser.TypeDictionaryContext)
+	/**
+	 * Enter a parse tree produced by the {@code TypeProtocolComposition}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func enterTypeProtocolComposition(ctx: SwiftParser.TypeProtocolCompositionContext)
+	/**
+	 * Exit a parse tree produced by the {@code TypeProtocolComposition}
+	 * labeled alternative in {@link SwiftParser#type}.
+	 - Parameters:
+	   - ctx: the parse tree
+	 */
+	func exitTypeProtocolComposition(ctx: SwiftParser.TypeProtocolCompositionContext)
 	/**
 	 * Enter a parse tree produced by {@link SwiftParser#type_annotation}.
 	 - Parameters:

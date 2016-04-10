@@ -369,8 +369,8 @@ parameter_clauses : parameter_clause parameter_clauses? ;
 parameter_clause : '(' ')' |  '(' parameter_list ')'  ;
 parameter_list : parameter (',' parameter)*  ;
 parameter
- : 'let'?  external_parameter_name? local_parameter_name type_annotation? default_argument_clause?
- | 'var'   external_parameter_name? local_parameter_name type_annotation? default_argument_clause?
+ : 'let'?  external_parameter_name? local_parameter_name type_annotation default_argument_clause?
+ | 'var'   external_parameter_name? local_parameter_name type_annotation default_argument_clause?
  | 'inout' external_parameter_name? local_parameter_name type_annotation
  |         external_parameter_name? local_parameter_name type_annotation range_operator
  ;
@@ -761,17 +761,17 @@ trailing_closure : closure_expression ;
 // GRAMMAR OF A TYPE
 
 type
- : '[' type ']'
- | '[' type ':' type ']'
- | type 'throws'? arrow_operator type
- | type 'rethrows' arrow_operator type
- | type_identifier
- | tuple_type
- | type '?'
- | type '!'
- | protocol_composition_type
- | type '.' 'Type'
- | type '.' 'Protocol'
+ : '[' type ']' # TypeArray
+ | '[' type ':' type ']' # TypeDictionary
+ | type 'throws'? arrow_operator type # TypeClosure
+ | type 'rethrows' arrow_operator type # TypeClosure
+ | type_identifier # TypeIdentifier
+ | tuple_type #  TypeTuple
+ | type '?' # TypeOptional
+ | type '!' # TypeImplicitlyUnwrappedOptional
+ | protocol_composition_type # TypeProtocolComposition
+ | type '.' 'Type' # TypeTypeType
+ | type '.' 'Protocol' # TypeProtocolType
  ;
 
 // GRAMMAR OF A TYPE ANNOTATION

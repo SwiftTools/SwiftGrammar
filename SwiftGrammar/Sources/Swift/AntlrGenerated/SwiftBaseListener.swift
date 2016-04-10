@@ -2789,13 +2789,121 @@ public class SwiftBaseListener: SwiftListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	public func enterType(ctx: SwiftParser.TypeContext) { }
+	public func enterTypeArray(ctx: SwiftParser.TypeArrayContext) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	public func exitType(ctx: SwiftParser.TypeContext) { }
+	public func exitTypeArray(ctx: SwiftParser.TypeArrayContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func enterTypeTypeType(ctx: SwiftParser.TypeTypeTypeContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func exitTypeTypeType(ctx: SwiftParser.TypeTypeTypeContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func enterTypeIdentifier(ctx: SwiftParser.TypeIdentifierContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func exitTypeIdentifier(ctx: SwiftParser.TypeIdentifierContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func enterTypeTuple(ctx: SwiftParser.TypeTupleContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func exitTypeTuple(ctx: SwiftParser.TypeTupleContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func enterTypeOptional(ctx: SwiftParser.TypeOptionalContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func exitTypeOptional(ctx: SwiftParser.TypeOptionalContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func enterTypeClosure(ctx: SwiftParser.TypeClosureContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func exitTypeClosure(ctx: SwiftParser.TypeClosureContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func enterTypeImplicitlyUnwrappedOptional(ctx: SwiftParser.TypeImplicitlyUnwrappedOptionalContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func exitTypeImplicitlyUnwrappedOptional(ctx: SwiftParser.TypeImplicitlyUnwrappedOptionalContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func enterTypeProtocolType(ctx: SwiftParser.TypeProtocolTypeContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func exitTypeProtocolType(ctx: SwiftParser.TypeProtocolTypeContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func enterTypeDictionary(ctx: SwiftParser.TypeDictionaryContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func exitTypeDictionary(ctx: SwiftParser.TypeDictionaryContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func enterTypeProtocolComposition(ctx: SwiftParser.TypeProtocolCompositionContext) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	public func exitTypeProtocolComposition(ctx: SwiftParser.TypeProtocolCompositionContext) { }
 	/**
 	 * {@inheritDoc}
 	 *
