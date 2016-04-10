@@ -4,7 +4,7 @@ import Antlr4
 import SwiftGrammar
 
 private class SwiftWalker: SwiftBaseListener {
-    var className: String?
+    var className: String? = nil
     var enteredBinaryOperator: Bool = false
     var enteredPrefixOperator: Bool = false
     var enteredPostfixOperator: Bool = false

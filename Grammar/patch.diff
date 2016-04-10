@@ -1,0 +1,12 @@
+--- SwiftGrammar/Sources/Swift/AntlrGenerated/SwiftBaseListener2.swift	2016-04-10 22:33:10.000000000 +0300
++++ SwiftGrammar/Sources/Swift/AntlrGenerated/SwiftBaseListener.swift	2016-04-10 22:33:33.000000000 +0300
+@@ -9,6 +9,9 @@
+  * of the available methods.
+  */
+ public class SwiftBaseListener: SwiftListener {
++    public init() {
++    }
++    
+ 	/**
+ 	 * {@inheritDoc}
+ 	 *

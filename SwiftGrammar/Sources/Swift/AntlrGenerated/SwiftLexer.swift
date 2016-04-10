@@ -4,13 +4,14 @@ import Antlr4
 public class SwiftLexer: Lexer {
 	internal static var _decisionToDFA: [DFA] = {
           var decisionToDFA = [DFA]()
-          for i in 0..<SwiftLexer._ATN.getNumberOfDecisions() {
+          let length = SwiftLexer._ATN.getNumberOfDecisions()
+          for i in 0..<length {
           	    decisionToDFA.append(DFA(SwiftLexer._ATN.getDecisionState(i)!, i))
           }
            return decisionToDFA
      }()
 
-	internal let _sharedContextCache:PredictionContextCache = PredictionContextCache()
+	internal static let _sharedContextCache:PredictionContextCache = PredictionContextCache()
 	public static let T__0=1, T__1=2, T__2=3, T__3=4, T__4=5, T__5=6, T__6=7, 
                    T__7=8, T__8=9, T__9=10, T__10=11, T__11=12, T__12=13, 
                    T__13=14, T__14=15, T__15=16, T__16=17, T__17=18, T__18=19, 
@@ -120,18 +121,17 @@ public class SwiftLexer: Lexer {
 	 */
 	//@Deprecated
 	public let tokenNames: [String?]? = {
-	    var tokenNames = [String?]()
-
-		for i in 0..<_SYMBOLIC_NAMES.count {
+	    let length = _SYMBOLIC_NAMES.count
+	    var tokenNames = [String?](count: length, repeatedValue: nil)
+		for i in 0..<length {
 			var name = VOCABULARY.getLiteralName(i)
 			if name == nil {
 				name = VOCABULARY.getSymbolicName(i)
 			}
-
 			if name == nil {
 				name = "<INVALID>"
 			}
-			 tokenNames.append(name)
+			tokenNames[i] = name
 		}
 		return tokenNames
 	}()
@@ -141,7 +141,6 @@ public class SwiftLexer: Lexer {
 		return tokenNames
 	}
 
-
     public override func getVocabulary() -> Vocabulary {
         return SwiftLexer.VOCABULARY
     }
@@ -149,7 +148,7 @@ public class SwiftLexer: Lexer {
 	public override init(_ input: CharStream) {
 	    RuntimeMetaData.checkVersion("4.5.1", RuntimeMetaData.VERSION)
 		super.init(input)
-		_interp = LexerATNSimulator(self, SwiftLexer._ATN, SwiftLexer._decisionToDFA,_sharedContextCache)
+		_interp = LexerATNSimulator(self, SwiftLexer._ATN, SwiftLexer._decisionToDFA, SwiftLexer._sharedContextCache)
 	}
 
 	override
@@ -167,7 +166,7 @@ public class SwiftLexer: Lexer {
 	override
 	public func getATN() -> ATN { return SwiftLexer._ATN }
 
-    public static let _serializedATN: String = SwiftLexerATN().contents
+    public static let _serializedATN: String = SwiftLexerATN().jsonString
 	public static let _ATN: ATN = ATNDeserializer().deserializeFromJson(_serializedATN)
 
 }
