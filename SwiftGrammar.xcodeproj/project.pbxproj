@@ -11,8 +11,6 @@
 		F85F98ED1CB4408A00B831CB /* SwiftGrammar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85F98E21CB4408A00B831CB /* SwiftGrammar.framework */; };
 		F85F98F21CB4408A00B831CB /* SwiftGrammarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85F98F11CB4408A00B831CB /* SwiftGrammarTests.swift */; };
 		F85F9B8B1CB4428A00B831CB /* Antlr4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85F98FF1CB4428900B831CB /* Antlr4.framework */; };
-		F85F9B8D1CB4428A00B831CB /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85F99011CB4428900B831CB /* Nimble.framework */; };
-		F85F9B8F1CB4428A00B831CB /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85F99031CB4428900B831CB /* Quick.framework */; };
 		F85F9E111CB4439800B831CB /* Antlr4.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F85F98FF1CB4428900B831CB /* Antlr4.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F85F9E121CB4439800B831CB /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F85F99011CB4428900B831CB /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F85F9E131CB4439800B831CB /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F85F99031CB4428900B831CB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -80,8 +78,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F85F9B8B1CB4428A00B831CB /* Antlr4.framework in Frameworks */,
-				F85F9B8D1CB4428A00B831CB /* Nimble.framework in Frameworks */,
-				F85F9B8F1CB4428A00B831CB /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
